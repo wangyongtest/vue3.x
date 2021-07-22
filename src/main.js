@@ -1,4 +1,6 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import LayoutPage from '@/Layout/index.vue'
+import '../styles/reset.css'
+import '../styles/theme.pcss'
 
-createApp(App).mount('#app')
+createApp(LayoutPage).mount('#app')
