@@ -1,29 +1,33 @@
 <template>
-  <div class="parentNode">
-    abxcc
-    <span class="childNodes">
-      index
-    </span>
+  <div class="layoutNode">
+<!--    {{ msgLayout }}-->
+    <HeaderNav/>
+    <MainCom/>
   </div>
 </template>
 
 <script>
+import HeaderNav from './headerNav.vue'
+import MainCom from './main.vue'
+import { ref } from 'vue'
 export default {
   name: 'Layout-Com',
-  components: {},
-  data() {
-    return {}
+  components: {
+    HeaderNav,
+    MainCom
+  },
+  setup(){
+    let msgLayout = ref('Layout')
+    return {
+      msgLayout
+    }
   }
 }
 </script>
 
 <style lang="postcss" scoped>
-.parentNode {
-  color: var(--text-color);
-
-  & .childNodes {
-    font-size: var(--middle-size);
-    color: purple;
-  }
+.layoutNode {
+  height: 100%;
+  border: 1px solid red;
 }
 </style>
