@@ -5,7 +5,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import SideBar from './sideBar.vue'
 import PageParent from './pageParents.vue'
 export default {
@@ -23,7 +23,7 @@ export default {
 <style lang="postcss" scoped>
 .container {
   width: 100%;
-  min-height: calc(100% - 60px);
+  height: calc(100% - 60px);
   display: flex;
   justify-content: flex-start;
 }

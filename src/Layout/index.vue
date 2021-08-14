@@ -28,6 +28,6 @@ export default {
 <style lang="postcss" scoped>
 .layoutNode {
   height: 100%;
-  border: 1px solid red;
+  //border: 1px solid red;
 }
 </style>

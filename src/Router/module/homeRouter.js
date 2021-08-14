@@ -1,13 +1,19 @@
  const homeRoutes = [
     {
-        path: '/index',
-        name: '首页',
+        path: '/index',  // 路由地址
+        name: 'IndexPage',     // 用于唯一标识
+        isHidden: false, // 是否显示左侧菜单
+        key: 'indexPage',
         meta: {
-            title: '',
-            auth: '',
-            keepAlive: false
+            title: '首页',  // 用于显示左侧菜单名称
+            auth: '',      // 用于权限 判断
+            keepAlive: false, // 是否缓存
         },
-        component: () => import('@/views/home/index.vue')
+        component: () => import('@/views/Home/index.vue'),
+        // redirect: { // 用于默认 选中页面
+        //   name: ''
+        // },
+        children: [], // 是否存在子菜单
     }
 ]
 
