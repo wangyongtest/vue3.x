@@ -1,16 +1,13 @@
 <template>
   <div>
     {{ state.iconLists }}
-    {{ num }}
   </div>
 </template>
 
 <script setup>
-import { defineProps, ref, reactive } from 'vue'
+import {ref, reactive} from 'vue'
 
-defineProps({})
-const  state =  {
+const state = reactive({
   iconLists: []
-}
-let num = 3
+})
 </script>

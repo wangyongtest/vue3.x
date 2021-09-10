@@ -1,22 +1,23 @@
 <template>
   <div class="container">
-    <SideBar/>
-    <PageParent/>
+    <SideBar />
+    <PageParent />
   </div>
 </template>
 
 <script lang="ts">
 import SideBar from './sideBar.vue'
 import PageParent from './pageParents.vue'
+
 export default {
   name: 'Container',
-  components:{
+  components: {
     SideBar,
-    PageParent
+    PageParent,
   },
-  data(){
+  data() {
     return {}
-  }
+  },
 }
 </script>
 

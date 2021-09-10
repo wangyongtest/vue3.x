@@ -20,29 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a5456b2-731d-42af-96b4-b634dd34f5b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Router/module/userRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/antdComponents/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/logo/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navHeaderCom/handleIcon.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/noDataPage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Users/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/animateStyl.pcss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vue3.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vue3.0.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layout/headerNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/headerNav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/main.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layout/pageParents.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/pageParents.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layout/sideBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/sideBar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Router/module/homeRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router/module/homeRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/home/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navHeaderCom/handleIcon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navHeaderCom/handleIcon.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +36,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1vbeDPjFs9DaG7nB3ABoyexvPHC" />
   <component name="ProjectLevelVcsManager">
@@ -68,9 +47,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/logo" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -114,6 +96,11 @@
       <workItem from="1628561165208" duration="1203000" />
       <workItem from="1628733673172" duration="13220000" />
       <workItem from="1628843562150" duration="5042000" />
+      <workItem from="1629358985287" duration="3000" />
+      <workItem from="1629365468127" duration="3755000" />
+      <workItem from="1629422053698" duration="3347000" />
+      <workItem from="1629440637674" duration="1674000" />
+      <workItem from="1629443561091" duration="544000" />
     </task>
     <servers />
   </component>
@@ -132,26 +119,8 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1899" height="144" key="GridCell.Tab.0.bottom" timestamp="1628901622467">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="144" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1628901622467" />
-    <state width="1899" height="144" key="GridCell.Tab.0.center" timestamp="1628901622467">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="144" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1628901622467" />
-    <state width="1899" height="144" key="GridCell.Tab.0.left" timestamp="1628901622467">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="144" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1628901622467" />
-    <state width="1899" height="144" key="GridCell.Tab.0.right" timestamp="1628901622467">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="144" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1628901622467" />
-    <state x="802" y="221" key="RollbackChangesDialog" timestamp="1626874404206">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="802" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626874404206" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

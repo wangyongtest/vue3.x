@@ -13,40 +13,30 @@
         </template>
         <span>Option 1</span>
       </a-menu-item>
+
       <a-menu-item key="2">
         <template #icon>
           <DesktopOutlined/>
         </template>
         <span>Option 2</span>
       </a-menu-item>
+
       <a-menu-item key="3">
         <template #icon>
           <InboxOutlined/>
         </template>
         <span>Option 3</span>
       </a-menu-item>
+
       <a-sub-menu key="sub1">
         <template #icon>
-          <MailOutlined/>
+          <MailOutlined />
         </template>
         <template #title>Navigation One</template>
         <a-menu-item key="5">Option 5</a-menu-item>
         <a-menu-item key="6">Option 6</a-menu-item>
-        <a-menu-item key="7">Option 7</a-menu-item>
-        <a-menu-item key="8">Option 8</a-menu-item>
       </a-sub-menu>
-      <a-sub-menu key="sub2">
-        <template #icon>
-          <AppstoreOutlined/>
-        </template>
-        <template #title>Navigation Two</template>
-        <a-menu-item key="9">Option 9</a-menu-item>
-        <a-menu-item key="10">Option 10</a-menu-item>
-        <a-sub-menu key="sub3" title="Submenu">
-          <a-menu-item key="11">Option 11</a-menu-item>
-          <a-menu-item key="12">Option 12</a-menu-item>
-        </a-sub-menu>
-      </a-sub-menu>
+
     </a-menu>
     <transition name="fade">
       <DoubleLeftOutlined v-if="!collapsed" class="collapseIcon" @click="toggleCollapsed"/>
@@ -85,8 +75,9 @@ export default defineComponent({
 
     watch(() => state.openKeys, (val, oldVal) => {
           state.preOpenKeys = oldVal
-        },
+        }
     );
+
     const toggleCollapsed = () => {
       state.collapsed = !state.collapsed;
       state.openKeys = state.collapsed ? [] : state.preOpenKeys;
@@ -112,7 +103,6 @@ export default defineComponent({
 </script>
 
 <style lang="postcss" scoped>
-@import "../../styles/animateStyl.pcss";
 .sideBar {
   height: 100%;
   width: 256px;

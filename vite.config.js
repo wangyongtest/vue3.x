@@ -1,19 +1,48 @@
 import { defineConfig } from 'vite'
+import path from 'path'
 import vue from '@vitejs/plugin-vue'
+import vitePluginImp from 'vite-plugin-imp'
 
-const path = require('path')
-import ViteComponents from 'vite-plugin-components'
-
-
-// https://vitejs.dev/config/
 export default defineConfig({
-    resolve: {
-        alias: {
-            '@': path.resolve(__dirname, 'src')
-        }
+  plugins: [
+    vue(),
+      ['import', {
+           'libraryName': 'ant-design-vue',
+           'libraryDirectory':'es',
+           'style': 'css' }],
+       vitePluginImp({
+      libs: [
+        {
+          libName: 'Antd',
+          style: (name) =>{
+            return `Antd/es/${name}/style/index.js`
+          }
+        },
+        {
+          libName: 'ant-design-vue',
+          style: (name) => {
+            return `ant-design-vue/es/${name}/style/index.css`
+          }
+        },
+      ],
+    }),
+  ],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
     },
-    plugins: [
-        vue(),
-        ViteComponents()
-    ]
+  },
+  optimizeDeps: {
+    include: ['@ant-design/icons-vue'],
+  },
+  css: {
+    preprocessorOptions: {
+      //这里注意，键名是scss不是sass！一字之差能让你折腾好久
+      scss: {
+        //这里写你想导入全局scss变量的路径
+        //这里注意只能写相对路径，alias貌似在css中不会生效
+        // additionalData: "@import './src/theme/variables.scss';",
+      },
+    },
+  },
 })
